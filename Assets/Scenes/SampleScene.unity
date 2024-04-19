@@ -3011,7 +3011,7 @@ Transform:
   m_GameObject: {fileID: 1041489136}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 232, y: 157, z: 452}
+  m_LocalPosition: {x: 254.3, y: 200.9, z: 452}
   m_LocalScale: {x: 64, y: 64, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4309,6 +4309,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3394330362466640331, guid: 1003c61218737464693563b8cc640e59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3394330362466640331, guid: 1003c61218737464693563b8cc640e59, type: 3}
+      propertyPath: GUIPreview
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3394330362466640331, guid: 1003c61218737464693563b8cc640e59, type: 3}
       propertyPath: PreviewCropPlane
       value: 
       objectReference: {fileID: 1724783532}
@@ -4421,7 +4429,7 @@ Transform:
   m_GameObject: {fileID: 1724783532}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 156.92004, y: 157, z: 452}
+  m_LocalPosition: {x: 179.22005, y: 200.9, z: 452}
   m_LocalScale: {x: 64, y: 64, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5189,7 +5197,7 @@ Transform:
   m_GameObject: {fileID: 2137169508}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 82, y: 165, z: 452}
+  m_LocalPosition: {x: 104.3, y: 208.9, z: 452}
   m_LocalScale: {x: 64, y: 48, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
