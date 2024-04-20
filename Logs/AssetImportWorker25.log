@@ -1,0 +1,100 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'hu' Physical Memory: 3454 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker25
+-projectPath
+C:/Users/szojk/Documents/BME 6.f√©l√©v (erasmus)/oulu/Product development/unity/test_game
+-logFile
+Logs/AssetImportWorker25.log
+-srvPort
+53791
+Successfully changed project path to: C:/Users/szojk/Documents/BME 6.f√©l√©v (erasmus)/oulu/Product development/unity/test_game
+C:/Users/szojk/Documents/BME 6.f√©l√©v (erasmus)/oulu/Product development/unity/test_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 0).
+Unable to join player connection alternative multicast group (err: 0).
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+received signal from system: SIGSEGV
+Obtained 35 stack frames
+0x00007ff61300a4bd (Unity) 
+0x00007ff61300f469 (Unity) 
+0x00007ff613fe6da1 (Unity) 
+0x00007ff61300e8b6 (Unity) 
+0x00007ff613009cec (Unity) 
+0x00007ff6154313f8 (Unity) 
+0x00007ff6154f44c8 (Unity) 
+0x00007ff6153fad90 (Unity) 
+0x00007fff9859440f (ntdll) 
+0x00007fff9850e466 (ntdll) 
+0x00007fff985933fe (ntdll) 
+0x00007ff612813100 (Unity) 
+0x00007ff612811e78 (Unity) 
+0x00007ff61282076c (Unity) 
+0x00007ff612812591 (Unity) 
+0x00007ff61281c72e (Unity) 
+0x00007ff612849aaf (Unity) 
+0x00007ff613e72900 (Unity) 
+0x00007ff613e729cc (Unity) 
+0x00007ff613e77c5c (Unity) 
+0x00007ff61284705d (Unity) 
+0x00007ff612fbcce8 (Unity) 
+0x00007ff612fb2d26 (Unity) 
+0x00007ff612fbd179 (Unity) 
+0x00007ff612fbd951 (Unity) 
+0x00007ff612fbd70c (Unity) 
+0x00007ff6120fb83b (Unity) 
+0x00007ff6142bf14b (Unity) 
+0x00007ff61435a3b9 (Unity) 
+0x00007ff6142d6f95 (Unity) 
+0x00007ff613b6694f (Unity) 
+0x00007ff613ff2ba5 (Unity) 
+0x00007ff6153d870e (Unity) 
+0x00007fff9735257d (KERNEL32) 
+0x00007fff9854aa48 (ntdll) 
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\szojk\Documents\BME 6.fÈlÈv (erasmus)\oulu\Product development\unity\test_game;C:\Users\szojk\Documents\BME 6.fÈlÈv (erasmus)\oulu\Product development\unity\test_game\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'szojk'
+OS-Version: 10.0.0
+
+========== OUTPUTTING STACK TRACE ==================
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/szojk/AppData/Local/Temp/Unity/Editor/Crashes
