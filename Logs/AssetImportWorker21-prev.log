@@ -1,0 +1,178 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'hu' Physical Memory: 3454 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+53791
+Successfully changed project path to: C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
+C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 0).
+Unable to join player connection alternative multicast group (err: 0).
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 43.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Microsoft Basic Render Driver (ID=0x8c)
+    Vendor:   Microsoft
+    VRAM:     1727 MB
+received signal from system: SIGSEGV
+Obtained 33 stack frames
+0x00007ff61300a4bd (Unity) 
+0x00007ff61300f469 (Unity) 
+0x00007ff613fe6da1 (Unity) 
+0x00007ff61300e8b6 (Unity) 
+0x00007ff613009cec (Unity) 
+0x00007ff6154313f8 (Unity) 
+0x00007ff6154f44c8 (Unity) 
+0x00007ff6153fad90 (Unity) 
+0x00007fff9859440f (ntdll) 
+0x00007fff9850e466 (ntdll) 
+0x00007fff985933fe (ntdll) 
+0x00007ff612829f6f (Unity) 
+0x00007ff612812316 (Unity) 
+0x00007ff61281c72e (Unity) 
+0x00007ff612c9e0b8 (Unity) 
+0x00007ff61472364b (Unity) 
+0x00007ff614722c39 (Unity) 
+0x00007ff61471e471 (Unity) 
+0x00007ff61471d200 (Unity) 
+0x00007ff612fe65dd (Unity) 
+0x00007ff612fe75b1 (Unity) 
+0x00007ff612fe7220 (Unity) 
+0x00007ff612fb8a5f (Unity) 
+0x00007ff612fb9380 (Unity) 
+0x00007ff612fbd772 (Unity) 
+0x00007ff612bbec0e (Unity) 
+0x00007ff614720336 (Unity) 
+0x00007ff612b916c4 (Unity) 
+0x00007ff613b6731e (Unity) 
+0x00007ff613ff2ba5 (Unity) 
+0x00007ff6153d870e (Unity) 
+0x00007fff9735257d (KERNEL32) 
+0x00007fff9854aa48 (ntdll) 
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'szojk'
+OS-Version: 10.0.0
+
+========== OUTPUTTING STACK TRACE ==================
+
+SymInit: Symbol-SearchPath: '.;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'szojk'
+OS-Version: 10.0.0
+SymInit: Symbol-SearchPath: '.;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'szojk'
+OS-Version: 10.0.0
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FFA5A8)
+0x00007FF612FFA5A8 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FFA6C1)
+0x00007FF612FFA6C1 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF613009E2A)
+0x00007FF613009E2A (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF6154313F8)
+0x00007FF6154313F8 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF6154F44C8)
+0x00007FF6154F44C8 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF6153FAD90)
+0x00007FF6153FAD90 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FFF9859440F)
+0x00007FFF9859440F (ntdll) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FFF9850E466)
+0x00007FFF9850E466 (ntdll) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FFF985933FE)
+0x00007FFF985933FE (ntdll) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612829F6F)
+0x00007FF612829F6F (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612812316)
+0x00007FF612812316 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF61281C72E)
+0x00007FF61281C72E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612C9E0B8)
+0x00007FF612C9E0B8 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF61472364B)
+0x00007FF61472364B (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF614722C39)
+0x00007FF614722C39 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF61471E471)
+0x00007FF61471E471 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF61471D200)
+0x00007FF61471D200 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FE65DD)
+0x00007FF612FE65DD (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FE75B1)
+0x00007FF612FE75B1 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FE7220)
+0x00007FF612FE7220 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FB8A5F)
+0x00007FF612FB8A5F (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FB9380)
+0x00007FF612FB9380 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612FBD772)
+0x00007FF612FBD772 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612BBEC0E)
+0x00007FF612BBEC0E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF614720336)
+0x00007FF614720336 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF612B916C4)
+0x00007FF612B916C4 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF613B6731E)
+0x00007FF613B6731E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF613FF2BA5)
+0x00007FF613FF2BA5 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF6153D870E)
+0x00007FF6153D870E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FFF9735257D)
+0x00007FFF9735257D (KERNEL32) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FFF9854AA48)
+0x00007FFF9854AA48 (ntdll) (function-name not available)
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/szojk/AppData/Local/Temp/Unity/Editor/Crashes
