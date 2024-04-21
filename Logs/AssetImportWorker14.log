@@ -1,0 +1,339 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'hu' Physical Memory: 3454 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+51290
+Successfully changed project path to: C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
+C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 0).
+Unable to join player connection alternative multicast group (err: 0).
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 26.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     1727 MB
+    Driver:   31.0.12044.24003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008409 seconds.
+- Loaded All Assemblies, in  0.552 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (271ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.898 seconds
+Refreshing native plugins compatible for Editor in 7.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.119 seconds
+Domain Reload Profiling: 3014ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1529ms)
+		LoadAssemblies (1242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (360ms)
+				TypeCache.ScanAssembly (319ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1121ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (815ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (616ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 6.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3645 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (23.1 MB). Loaded Objects now: 4087.
+Memory consumption went from 186.5 MB to 163.4 MB.
+Total: 10.459400 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.163200 ms MarkObjects: 4.281700 ms  DeleteObjects: 5.486100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10857.629693 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_2.prefab
+  artifactKey: Guid(db459aded5e3413428c6e901ae6f201e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_2.prefab using Guid(db459aded5e3413428c6e901ae6f201e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8614ec2a7d37930c8af15bf71b66726') in 6.622666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_19.prefab
+  artifactKey: Guid(b7e0aa008294bec44aba44c688391281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_19.prefab using Guid(b7e0aa008294bec44aba44c688391281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf3b335f44a26740df53bb6bceafa92') in 0.111157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_18.prefab
+  artifactKey: Guid(62a3a89d021d0e641a08ffe14cee2a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_18.prefab using Guid(62a3a89d021d0e641a08ffe14cee2a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785249bfb63299fb8a961a3b3df276d4') in 0.122023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_3.prefab
+  artifactKey: Guid(d982e8c5809cfa5449a79bf7765c7bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_3.prefab using Guid(d982e8c5809cfa5449a79bf7765c7bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2860b391e60aac9e24afb66d16468381') in 0.094448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_22.prefab
+  artifactKey: Guid(18dfe8c86f4ab6645b70a18b6d63d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_22.prefab using Guid(18dfe8c86f4ab6645b70a18b6d63d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a4346aee652aaf38118a48c131862') in 0.078901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_12.prefab
+  artifactKey: Guid(6116316d10bc3f041b6a0010059717ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_12.prefab using Guid(6116316d10bc3f041b6a0010059717ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249926ed48f63eaca22cd15433ff2523') in 0.098802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 44.993991 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_30.prefab
+  artifactKey: Guid(ca2f761eff544ce4c8a9481df0259366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_30.prefab using Guid(ca2f761eff544ce4c8a9481df0259366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db19d8f67249ce3f45585fdaa7f9326') in 0.614335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001801 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_32.prefab
+  artifactKey: Guid(bfa536d1f6f520f47a73aed732c9b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_32.prefab using Guid(bfa536d1f6f520f47a73aed732c9b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea40cbc7d70469303af3ea9d8b395fa5') in 0.076140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_33.prefab
+  artifactKey: Guid(027bf83d228e86a45a2930ae99e8e79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_33.prefab using Guid(027bf83d228e86a45a2930ae99e8e79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719ac2a5237ba3ddccf99892ac18a555') in 0.076802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_36.prefab
+  artifactKey: Guid(f7869eb8b640c7b4f8ef3e7f8e0cf095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_36.prefab using Guid(f7869eb8b640c7b4f8ef3e7f8e0cf095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da87ba29cc9b26f479e3f316256e366') in 0.056320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.101890 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_39.prefab
+  artifactKey: Guid(2093c5f65fcbb29438c0a30402043903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_39.prefab using Guid(2093c5f65fcbb29438c0a30402043903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325f18bd67a29fbecf3502290a971529') in 0.033949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_42.prefab
+  artifactKey: Guid(ad3c79901d3964b4aabbadc4ebdae266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_42.prefab using Guid(ad3c79901d3964b4aabbadc4ebdae266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5d9e397fb318b3dc7a00a29cbcd075') in 0.029228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_45.prefab
+  artifactKey: Guid(044c2f4a9a2d7c0429e909321b375577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_45.prefab using Guid(044c2f4a9a2d7c0429e909321b375577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77fa688fcba17eb001b660f14cfddd1') in 0.091531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_49.prefab
+  artifactKey: Guid(68525e322aee5574287b328dd93c37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_49.prefab using Guid(68525e322aee5574287b328dd93c37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7079a6552134d6d72e4f5ce8e51df0c0') in 0.108523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_52.prefab
+  artifactKey: Guid(b544e4c442586f140b642e1e7165a083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_52.prefab using Guid(b544e4c442586f140b642e1e7165a083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82b0fe62b2a7bff33456bab77cb8fc7') in 0.158601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_53.prefab
+  artifactKey: Guid(526a0dc754c693a46bcd4f8421d4f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_53.prefab using Guid(526a0dc754c693a46bcd4f8421d4f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b661358dd42f38f6b74a1805354b3d') in 0.317958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_50.prefab
+  artifactKey: Guid(1d45a27c6cff03d44b9c0ab12506cb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_50.prefab using Guid(1d45a27c6cff03d44b9c0ab12506cb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa543c3c1478151ef3ba88a1ea8e899') in 0.048893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_57.prefab
+  artifactKey: Guid(335275cc89c92504a9964378476e0b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_57.prefab using Guid(335275cc89c92504a9964378476e0b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8bdcf749ed4a16f50ef0fd85655d44') in 0.042249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_54.prefab
+  artifactKey: Guid(f4014facc69b0ff4e8797bf786eb02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_54.prefab using Guid(f4014facc69b0ff4e8797bf786eb02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7ba3718398426471fdceed8d544507') in 0.075200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_47.prefab
+  artifactKey: Guid(57d37b2c1234ed643b01436d33dbc777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blinktool/Low poly rocks/Prefabs/Mossy/Rocks_Mossy_47.prefab using Guid(57d37b2c1234ed643b01436d33dbc777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65e2ce3a122d098c3445968423fb8b8') in 0.039077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
