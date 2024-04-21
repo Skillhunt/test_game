@@ -1,0 +1,256 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'hu' Physical Memory: 3454 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/szojk/Documents/BME 6.fÃ©lÃ©v (erasmus)/oulu/Product development/unity/test_game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50546
+Successfully changed project path to: C:/Users/szojk/Documents/BME 6.fÃ©lÃ©v (erasmus)/oulu/Product development/unity/test_game
+C:/Users/szojk/Documents/BME 6.fÃ©lÃ©v (erasmus)/oulu/Product development/unity/test_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 0).
+Unable to join player connection alternative multicast group (err: 0).
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 99.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/szojk/Documents/BME 6.fÃ©lÃ©v (erasmus)/oulu/Product development/unity/test_game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     1727 MB
+    Driver:   31.0.12044.24003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006737 seconds.
+- Loaded All Assemblies, in  2.034 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.711 seconds
+Domain Reload Profiling: 2742ms
+	BeginReloadAssembly (1397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (37ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (1210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (353ms)
+			TypeCache.Refresh (351ms)
+				TypeCache.ScanAssembly (328ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (72ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 13.399 seconds
+Refreshing native plugins compatible for Editor in 15.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.862 seconds
+Domain Reload Profiling: 15437ms
+	BeginReloadAssembly (1952ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (2599ms)
+	LoadAllAssembliesAndSetupDomain (8933ms)
+		LoadAssemblies (5720ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4724ms)
+			TypeCache.Refresh (3973ms)
+				TypeCache.ScanAssembly (1237ms)
+			ScanForSourceGeneratedMonoScriptInfo (602ms)
+			ResolveRequiredComponents (71ms)
+	FinalizeReload (1862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (1082ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.40 seconds
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3645 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (23.1 MB). Loaded Objects now: 4087.
+Memory consumption went from 184.8 MB to 161.7 MB.
+Total: 74.813000 ms (FindLiveObjects: 1.780000 ms CreateObjectMapping: 0.432600 ms MarkObjects: 53.986800 ms  DeleteObjects: 18.603300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8600.778716 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_4_Red_Pre.prefab
+  artifactKey: Guid(d9244a14015c0974fbd69c6705765b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_4_Red_Pre.prefab using Guid(d9244a14015c0974fbd69c6705765b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127e40108ff40ca87a8f4020f608dbe1') in 1.377647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 306.663731 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials/New Material 1.mat
+  artifactKey: Guid(9b74ccfc95ad7804ba2fbc26279979be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials/New Material 1.mat using Guid(9b74ccfc95ad7804ba2fbc26279979be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e9c32db10dea4cffaa63fa19fdb44c') in 1.880580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials/Soil_1.terrainlayer
+  artifactKey: Guid(bfd578a74db5b934fadf50cdc6eec849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials/Soil_1.terrainlayer using Guid(bfd578a74db5b934fadf50cdc6eec849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9272d53f2fae5a5c33e400b4af9bbe86') in 0.162134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.523947 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_Normal.png
+  artifactKey: Guid(0ffa4b94131e81e40a37cd5d2593cad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_Normal.png using Guid(0ffa4b94131e81e40a37cd5d2593cad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a3d38513a73ca572e9ecf49d57f813') in 0.381441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.194877 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Gradient_1.png
+  artifactKey: Guid(ebe5455b5e793be4f98e2c0c25c0730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Gradient_1.png using Guid(ebe5455b5e793be4f98e2c0c25c0730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598dce62c2175b1ed4ab7adfea1e2c4e') in 0.053031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Grass_1_N.png
+  artifactKey: Guid(21928ffc25d24d547826a6fd19fc9f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Grass_1_N.png using Guid(21928ffc25d24d547826a6fd19fc9f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d332928a1a7cb269ff0bfbf65fe653d') in 0.129275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001754 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_mask.png
+  artifactKey: Guid(84651f49faaa9c34c82723208a2bdfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_mask.png using Guid(84651f49faaa9c34c82723208a2bdfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd255f4723e5a5c523d85267bcd9e0a') in 0.478005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001265 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_Albeldo.png
+  artifactKey: Guid(8acc8d566e6512c44b0cc563c08fab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_Albeldo.png using Guid(8acc8d566e6512c44b0cc563c08fab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba39e35c2420f0a3adb8e52a2fef9fa') in 0.743984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006137 seconds.
+  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Water_Normals_wave_1.psd
+  artifactKey: Guid(d5b9ce16fda0efe4896114c1ec9f44f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Water_Normals_wave_1.psd using Guid(d5b9ce16fda0efe4896114c1ec9f44f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64ac6f17f73c377d31204d3a9b5aa83') in 0.094383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Az I/O muvelet megszakítva. (Egy folyamat véget ért, vagy egy alkalmazás megszakította az I/O muveletet.)
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
