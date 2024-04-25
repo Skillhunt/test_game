@@ -6,9 +6,9 @@ public class BoatController : MonoBehaviour
 
 {
 
-    public float speed = 5f;
+    public float speed = 20f;
 
-    public float syncedSpeedMultiplier = 2f;
+    public float syncedSpeedMultiplier = 10f;
 
     public KeyCode leftKey = KeyCode.A;
 
