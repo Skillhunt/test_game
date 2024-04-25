@@ -15,7 +15,7 @@ C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50546
+56148
 Successfully changed project path to: C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
 C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/test_game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -52,7 +52,7 @@ C:/Users/szojk/Documents/BME 6.félév (erasmus)/oulu/Product development/unity/
 Unable to join player connection multicast group (err: 0).
 Unable to join player connection alternative multicast group (err: 0).
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 29.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -68,100 +68,100 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013297 seconds.
-- Loaded All Assemblies, in  1.114 seconds
+Registered in 0.011469 seconds.
+- Loaded All Assemblies, in  0.999 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.565 seconds
-Domain Reload Profiling: 2671ms
-	BeginReloadAssembly (439ms)
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1652ms
+	BeginReloadAssembly (298ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (91ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (151ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (436ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (136ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (292ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (391ms)
-			TypeCache.Refresh (387ms)
-				TypeCache.ScanAssembly (315ms)
+		AnalyzeDomain (459ms)
+			TypeCache.Refresh (456ms)
+				TypeCache.ScanAssembly (414ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1566ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (658ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1380ms)
+		SetupLoadedEditorAssemblies (517ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (30ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (16ms)
-			ProcessInitializeOnLoadAttributes (1139ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (207ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.069 seconds
-Refreshing native plugins compatible for Editor in 23.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.622 seconds
+Refreshing native plugins compatible for Editor in 9.20 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.345 seconds
-Domain Reload Profiling: 5576ms
-	BeginReloadAssembly (392ms)
+- Finished resetting the current domain, in  0.840 seconds
+Domain Reload Profiling: 2596ms
+	BeginReloadAssembly (266ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (126ms)
-	LoadAllAssembliesAndSetupDomain (3628ms)
-		LoadAssemblies (2052ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (1300ms)
+		LoadAssemblies (794ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1658ms)
-			TypeCache.Refresh (750ms)
-				TypeCache.ScanAssembly (409ms)
-			ScanForSourceGeneratedMonoScriptInfo (880ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1348ms)
+		AnalyzeDomain (541ms)
+			TypeCache.Refresh (494ms)
+				TypeCache.ScanAssembly (364ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (840ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (932ms)
+		SetupLoadedEditorAssemblies (509ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (705ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 73.55 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 6.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3645 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 74 unused Assets / (23.1 MB). Loaded Objects now: 4087.
-Memory consumption went from 184.3 MB to 161.2 MB.
-Total: 160.428100 ms (FindLiveObjects: 0.851400 ms CreateObjectMapping: 0.523700 ms MarkObjects: 52.185600 ms  DeleteObjects: 106.858600 ms)
+Memory consumption went from 186.5 MB to 163.4 MB.
+Total: 10.454200 ms (FindLiveObjects: 0.458500 ms CreateObjectMapping: 0.131400 ms MarkObjects: 4.125200 ms  DeleteObjects: 5.734500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,637 +179,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8567.518015 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_3_Red_Pre.prefab
-  artifactKey: Guid(010b761a680e74d4ca665fb0f168d413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_3_Red_Pre.prefab using Guid(010b761a680e74d4ca665fb0f168d413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05aee4c04291d28fbd01b4e4d351ee47') in 7.290317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 54
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree&Plant_6.prefab
-  artifactKey: Guid(c7eaae841e378cf4893634abf66dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree&Plant_6.prefab using Guid(c7eaae841e378cf4893634abf66dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8419233aba184bfa1da701a92d34f0') in 7.420115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 352
-========================================================================
-Received Import Request.
-  Time since last request: 0.000893 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_2_Orange_Pre.prefab
-  artifactKey: Guid(90e42535f858f27419a893aa13c335bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_2_Orange_Pre.prefab using Guid(90e42535f858f27419a893aa13c335bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8934cd146dc4d53172d1e816aedf90') in 14.740390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 54
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_2_Red_Pre.prefab
-  artifactKey: Guid(4e6e31d8e1309fd4daae47fcd67988b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_2_Red_Pre.prefab using Guid(4e6e31d8e1309fd4daae47fcd67988b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430b42e3dc5dfc1fdfc5ebaccc82bfbf') in 0.449668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 54
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_5_Green_Pre.prefab
-  artifactKey: Guid(7a6d7c11ac79a3f40af7a8933da87441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_5_Green_Pre.prefab using Guid(7a6d7c11ac79a3f40af7a8933da87441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6249c7607b37050b8b403c2cf2c7f684') in 0.190287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 54
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_3_Orange_Pre.prefab
-  artifactKey: Guid(745a313093501fc4a99e6598ab6417de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_3_Orange_Pre.prefab using Guid(745a313093501fc4a99e6598ab6417de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e267314805a647eb51749fbad54a5fa') in 1.740560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 54
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Plant_4_Pre.prefab
-  artifactKey: Guid(15daa517261f5504ea0a7044f82ee2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Plant_4_Pre.prefab using Guid(15daa517261f5504ea0a7044f82ee2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceff3daf8f9bb3836285e927df79273') in 0.371134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 305.558001 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials
-  artifactKey: Guid(19031375452654c43a7b204e457cdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials using Guid(19031375452654c43a7b204e457cdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7dfdf822c78effd9507ec0aff358df') in 0.024442 seconds
+  Time since last request: 20747.699706 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576be4ad25d35081e32113bd3c5af2cd') in 0.008820 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.196159 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials/New Material.mat
-  artifactKey: Guid(f9a037b4d234c4f459a57d8d8acc0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Materials/New Material.mat using Guid(f9a037b4d234c4f459a57d8d8acc0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dbff938e710ba8402d231b5ada0252') in 2.065944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.580043 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_Albeldo_B.png
-  artifactKey: Guid(29ab0ed6f48b89f43b7fba935c2d5e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Soil_1_Albeldo_B.png using Guid(29ab0ed6f48b89f43b7fba935c2d5e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbecb47d21801876775c9062010433f8') in 0.196114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 19.668810 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Terrains
-  artifactKey: Guid(f195e64a68023b64a856302c87e7596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Terrains using Guid(f195e64a68023b64a856302c87e7596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea41ad8599a264126cb74943090093e4') in 0.017006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.066512 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Terrains/New Terrain 7.asset
-  artifactKey: Guid(072e86403c54c424183dd034c5f20b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Terrains/New Terrain 7.asset using Guid(072e86403c54c424183dd034c5f20b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8c6b2bc12c6d0c64588bed20689426') in 0.773295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 237
-========================================================================
-Received Import Request.
-  Time since last request: 2.733588 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures
-  artifactKey: Guid(39fa6d83d5548124ea0f55ba4e97bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures using Guid(39fa6d83d5548124ea0f55ba4e97bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d1c61631c8c0bfb4b7ad22af8ff0ed') in 0.002795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.081064 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Foam.png
-  artifactKey: Guid(989c6aa4d3f479f409af1046bfb5fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Foam.png using Guid(989c6aa4d3f479f409af1046bfb5fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c580713a81b92dd1582dde0b18f01ffb') in 0.041442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Grass_1_D.png
-  artifactKey: Guid(14a726a9d99decf418047f2119f38021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Grass_1_D.png using Guid(14a726a9d99decf418047f2119f38021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81793c631c7a4a01a3fda65108f2e65f') in 0.078898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020743 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/New HDRenderPipelineAsset.asset
-  artifactKey: Guid(3fc86ab3685c5a24482bbe4a96abac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/New HDRenderPipelineAsset.asset using Guid(3fc86ab3685c5a24482bbe4a96abac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274f747123199c9c92718d9f7abfc22b') in 0.059000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Water_Normals_Wave_2.psd
-  artifactKey: Guid(8f83d6ec5bf7ea3438fe240c3b07c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Water_Normals_Wave_2.psd using Guid(8f83d6ec5bf7ea3438fe240c3b07c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf28ca6841a2fd3f858fbe90e0fc4e8') in 0.474161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Rock_Ramp.PNG
-  artifactKey: Guid(c2407159b75995d40bf26ddd75cf77ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Textures/Rock_Ramp.PNG using Guid(c2407159b75995d40bf26ddd75cf77ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce630ae678df7849d0e5df19fb41a9d6') in 0.688356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 27.200133 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_5_Orange_Pre.prefab
-  artifactKey: Guid(0b0cb35e7978ddc4e9081dcfb023310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Prefabs/Tree_1_5_Orange_Pre.prefab using Guid(0b0cb35e7978ddc4e9081dcfb023310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b3500d01d605b4f31fd76cb246f84') in 0.274841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 54
-========================================================================
-Received Import Request.
-  Time since last request: 35.079734 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes
-  artifactKey: Guid(2aff1b7de2e018042946a1f114d389a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes using Guid(2aff1b7de2e018042946a1f114d389a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d413ae67f06b13323c384e155ed694f') in 0.002461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.797251 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes/Rocks
-  artifactKey: Guid(6af43105d4b7ace4c9cac466a3d364cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes/Rocks using Guid(6af43105d4b7ace4c9cac466a3d364cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e59bf541cdf61b6bc4333418980e93') in 0.002450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.108267 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes/Rocks/Rock_1_1.fbx
-  artifactKey: Guid(6028daf116f08c645af940a58654a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes/Rocks/Rock_1_1.fbx using Guid(6028daf116f08c645af940a58654a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa33b497c8b25a545ece4a03be61c5ad') in 26.645427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.001159 seconds.
-  path: Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes/Rocks/Rock_3_3.fbx
-  artifactKey: Guid(45b584e052799c146b95677392803e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fristy Fantasy Lands 1/Fristy Fantasy Lands 1/Meshes/Rocks/Rock_3_3.fbx using Guid(45b584e052799c146b95677392803e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Could not allocate memory: System out of memory!
-Trying to allocate: 22369648B with 16 alignment. MemoryLabel: Texture
-Allocation happened at: Line:69 in C:\build\output\unity\unity\Runtime\Utilities\dynamic_array.h
-Memory overview
-
-[ ALLOC_TEMP_TLS ] used: 10657B | peak: 0B | reserved: 53870592B 
-[ ALLOC_MEMORYPROFILER ] used: 358784B | peak: 650016B | reserved: 1048576B 
-[ ALLOC_DEFAULT ] used: 62375776B | peak: 0B | reserved: 117440512B 
-[ ALLOC_TEMP_JOB_1_FRAME ] used: 0B | peak: 0B | reserved: 0B 
-[ ALLOC_TEMP_JOB_2_FRAMES ] used: 0B | peak: 0B | reserved: 0B 
-[ ALLOC_TEMP_JOB_4_FRAMES (JobTemp) ] used: 4631B | peak: 0B | reserved: 6291456B 
-[ ALLOC_TEMP_JOB_ASYNC (Background) ] used: 0B | peak: 0B | reserved: 2097152B 
-[ ALLOC_GFX ] used: 392696B | peak: 0B | reserved: 50335744B 
-[ ALLOC_CACHEOBJECTS ] used: 8958456B | peak: 0B | reserved: 71307264B 
-[ ALLOC_TYPETREE ] used: 748648B | peak: 0B | reserved: 8388608B 
-[ ALLOC_PROFILER ] used: 121424B | peak: 131952B | reserved: 16777216B 
-[ ALLOC_PROFILER_EDITOR ] used: 0B | peak: 0B | reserved: 0B 
-Could not allocate memory: System out of memory!
-Trying to allocate: 22369648B with 16 alignment. MemoryLabel: Texture
-Allocation happened at: Line:69 in C:\build\output\unity\unity\Runtime\Utilities\dynamic_array.h
-Memory overview
-
-[ ALLOC_TEMP_TLS ] used: 10657B | peak: 0B | reserved: 53870592B 
-[ ALLOC_MEMORYPROFILER ] used: 358784B | peak: 650016B | reserved: 1048576B 
-[ ALLOC_DEFAULT ] used: 62375776B | peak: 0B | reserved: 117440512B 
-[ ALLOC_TEMP_JOB_1_FRAME ] used: 0B | peak: 0B | reserved: 0B 
-[ ALLOC_TEMP_JOB_2_FRAMES ] used: 0B | peak: 0B | reserved: 0B 
-[ ALLOC_TEMP_JOB_4_FRAMES (JobTemp) ] used: 4631B | peak: 0B | reserved: 6291456B 
-[ ALLOC_TEMP_JOB_ASYNC (Background) ] used: 0B | peak: 0B | reserved: 2097152B 
-[ ALLOC_GFX ] used: 392696B | peak: 0B | reserved: 50335744B 
-[ ALLOC_CACHEOBJECTS ] used: 8958456B | peak: 0B | reserved: 71307264B 
-[ ALLOC_TYPETREE ] used: 748648B | peak: 0B | reserved: 8388608B 
-[ ALLOC_PROFILER ] used: 121424B | peak: 131952B | reserved: 16777216B 
-[ ALLOC_PROFILER_EDITOR ] used: 0B | peak: 0B | reserved: 0B 
-Fatal Error! Could not allocate memory: System out of memory!
-Trying to allocate: 22369648B with 16 alignment. MemoryLabel: Texture
-Allocation happened at: Line:69 in C:\build\output\unity\unity\Runtime\Utilities\dynamic_array.h
-Memory overview
-
-[ ALLOC_TEMP_TLS ] used: 10657B | peak: 0B | reserved: 53870592B 
-[ ALLOC_MEMORYPROFILER ] used: 358784B | peak: 650016B | reserved: 1048576B 
-[ ALLOC_DEFAULT ] used: 62375776B | peak: 0B | reserved: 117440512B 
-[ ALLOC_TEMP_JOB_1_FRAME ] used: 0B | peak: 0B | reserved: 0B 
-[ ALLOC_TEMP_JOB_2_FRAMES ] used: 0B | peak: 0B | reserved: 0B 
-[ ALLOC_TEMP_JOB_4_FRAMES (JobTemp) ] used: 4631B | peak: 0B | reserved: 6291456B 
-[ ALLOC_TEMP_JOB_ASYNC (Background) ] used: 0B | peak: 0B | reserved: 2097152B 
-[ ALLOC_GFX ] used: 392696B | peak: 0B | reserved: 50335744B 
-[ ALLOC_CACHEOBJECTS ] used: 8958456B | peak: 0B | reserved: 71307264B 
-[ ALLOC_TYPETREE ] used: 748648B | peak: 0B | reserved: 8388608B 
-[ ALLOC_PROFILER ] used: 121424B | peak: 131952B | reserved: 16777216B 
-[ ALLOC_PROFILER_EDITOR ] used: 0B | peak: 0B | reserved: 0B 
-
-Crash!!!
-SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Mono;.;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'szojk'
-OS-Version: 10.0.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe:Unity.exe (00007FF74C000000), size: 82337792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2022.3.13.37029
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF8CCB70000), size: 2187264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF8CB880000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF8C9FB0000), size: 3829760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF8CA480000), size: 1470464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF8C9E90000), size: 1118208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF8CBF80000), size: 1761280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF8CA700000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF8CB710000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3085
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF8CA360000), size: 1150976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF8CA660000), size: 630784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF8CBEA0000), size: 729088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3296
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF8CABE0000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22621.2506
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF8CCA30000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3296
-C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FF8CA870000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF8CC220000), size: 1134592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF8CAC90000), size: 8765440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF8CC140000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF8CC340000), size: 1724416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FF8CBAE0000), size: 3702784 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3235
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FF8CC4F0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF8CC530000), size: 4669440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF8CC1A0000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF8CB7A0000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF8CA5F0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3447
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF8335D0000), size: 10067968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.3.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FF88EF70000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\etccompress.dll:etccompress.dll (00007FF832850000), size: 5066752 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF87D750000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FF83D920000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF89BCE0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FF83DBA0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF849630000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF8C8990000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF849B70000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF8C2500000), size: 1269760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF8C10D0000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF8C7380000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3085
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF832D30000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF8C2890000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF8C86F0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-:WSOCK32.dll (00007FF8C1120000), size: 36864 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF898C30000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.38.33135.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF88EEF0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF898C20000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.38.33135.0
-C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF898C00000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.38.33135.0
-C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF8C8CB0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF8C7050000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF8C9130000), size: 311296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3235
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\OpenRL.dll:OpenRL.dll (0000019D0EAF0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
-C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000075280000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
-C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000075320000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\embree.dll:embree.dll (00007FF821F50000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
-C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FF8C9B00000), size: 319488 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\tbb.dll:tbb.dll (00007FF88EE80000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
-C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FF872140000), size: 679936 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 12.0.40664.0
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FF8C9340000), size: 430080 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FF842000000), size: 978944 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 12.0.40664.0
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000019D0E900000), size: 61440 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 2.9.0.0
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF8C9600000), size: 73728 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FF8CA7F0000), size: 495616 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF8C8ED0000), size: 98304 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2715
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF8C6F40000), size: 700416 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3447
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF8C7DF0000), size: 9408512 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3447
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FF8C7CB0000), size: 1302528 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3235
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FF8CB9E0000), size: 995328 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF8C9DC0000), size: 135168 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FF8BE710000), size: 36864 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FF8C5050000), size: 1769472 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF8C4AF0000), size: 491520 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF8CBE90000), size: 36864 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF8C2960000), size: 102400 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF8C23D0000), size: 126976 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF8C8A10000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3155
-C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FF88AD10000), size: 94208 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FF88ACF0000), size: 110592 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FF88AC60000), size: 69632 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF8BFAE0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FF8C0440000), size: 86016 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FF88AC30000), size: 135168 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF8C04A0000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3235
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF8C2980000), size: 40960 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FF83D600000), size: 1519616 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF843700000), size: 540672 (result: 8), SymType: '-unknown-', PDB: ''
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FF8BB1C0000), size: 643072 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FF8C9AD0000), size: 180224 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF8C5E60000), size: 2453504 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3235
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF8C7090000), size: 1015808 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FF8C3F00000), size: 303104 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\DriverStore\FileRepository\u0388253.inf_amd64_501ddfbfa1c4852c\B387046\aticfx64.dll:aticfx64.dll (00007FF8C06A0000), size: 1814528 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 31.0.12044.24003
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\DriverStore\FileRepository\u0388253.inf_amd64_501ddfbfa1c4852c\B387046\atiuxp64.dll:atiuxp64.dll (00007FF8C0620000), size: 233472 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 31.0.12044.24003
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\DriverStore\FileRepository\u0388253.inf_amd64_501ddfbfa1c4852c\B387046\atidxx64.dll:atidxx64.dll (00007FF8BBFE0000), size: 32673792 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 31.0.12044.24003
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FF8C6B30000), size: 618496 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\amdihk64.dll:amdihk64.dll (00007FF8C0460000), size: 217088 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 2.0.0.1788
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FF8C0250000), size: 192512 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF8C9440000), size: 163840 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3374
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF8B3D60000), size: 65536 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3085
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF8B3CE0000), size: 524288 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF8AE9C0000), size: 81920 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.3085
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF8AEB50000), size: 1015808 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF8AE040000), size: 118784 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\MpOav.dll:MpOav.dll (00007FF8ADFB0000), size: 528384 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 4.18.24030.9
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FF8463A0000), size: 507904 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 3.0.0.0
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\radeonrays.dll:radeonrays.dll (00007FF83DB10000), size: 557056 (result: 8), SymType: '-unknown-', PDB: ''
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF820800000), size: 10825728 (result: 8), SymType: '-unknown-', PDB: ''
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF8C78F0000), size: 2306048 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.2506
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-C:\WINDOWS\System32\psapi.dll:psapi.dll (00007FF8CB700000), size: 32768 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: LoadModule, GetLastError: 'Nincs elegendő memória-erőforrás a parancs feldolgozásához.' (Address: 0000000000000000)
-
-========== OUTPUTTING STACK TRACE ==================
-
-SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Mono;.;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game;C:\Users\szojk\Documents\BME 6.f�l�v (erasmus)\oulu\Product development\unity\test_game\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'szojk'
-OS-Version: 10.0.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe:Unity.exe (00007FF74C000000), size: 82337792 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe', fileVersion: 2022.3.13.37029
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF8CCB70000), size: 2187264 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF8CB880000), size: 802816 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF8C9FB0000), size: 3829760 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF8CA480000), size: 1470464 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF8C9E90000), size: 1118208 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF8CBF80000), size: 1761280 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF8CA700000), size: 155648 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF8CB710000), size: 167936 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.22621.3085
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF8CA360000), size: 1150976 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF8CA660000), size: 630784 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF8CBEA0000), size: 729088 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.22621.3296
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF8CABE0000), size: 684032 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.22621.2506
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF8CCA30000), size: 688128 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.22621.3296
-C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FF8CA870000), size: 163840 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\bcrypt.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF8CC220000), size: 1134592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.22621.3447
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF8CAC90000), size: 8765440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF8CC140000), size: 385024 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF8CC340000), size: 1724416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FF8CBAE0000), size: 3702784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3235
-C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FF8CC4F0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF8CC530000), size: 4669440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF8CC1A0000), size: 462848 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.22621.1
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF8CB7A0000), size: 880640 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF8CA5F0000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WINTRUST.dll', fileVersion: 10.0.22621.3447
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF8335D0000), size: 10067968 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\libfbxsdk.dll', fileVersion: 2020.3.3.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FF88EF70000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\s3tcompress.dll'
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\etccompress.dll:etccompress.dll (00007FF832850000), size: 5066752 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\etccompress.dll'
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF87D750000), size: 1826816 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\ispc_texcomp.dll'
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FF83D920000), size: 1433600 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\compress_bc7e.dll'
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\FreeImage.dll', fileVersion: 3.18.0.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF89BCE0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\WinPixEventRuntime.dll', fileVersion: 1.0.1812.6001
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FF83DBA0000), size: 1187840 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\umbraoptimizer64.dll'
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF849630000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF8C8990000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF849B70000), size: 1048576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF8C2500000), size: 1269760 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF8C10D0000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF8C7380000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dwmapi.dll', fileVersion: 10.0.22621.3085
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF832D30000), size: 8990720 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpAPI.dll', fileVersion: 23.0.0.0
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF8C2890000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF8C86F0000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FF8C1120000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF898C30000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP140.dll', fileVersion: 14.38.33135.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF88EEF0000), size: 499712 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\SketchUpCommonPreferences.dll', fileVersion: 23.0.0.0
-C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF898C20000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.38.33135.0
-C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF898C00000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.38.33135.0
-C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF8C8CB0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\Secur32.dll', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF8C7050000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxcore.dll', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF8C9130000), size: 311296 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SSPICLI.DLL', fileVersion: 10.0.22621.3235
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\OpenRL.dll:OpenRL.dll (0000019D0EAF0000), size: 12779520 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\OpenRL.dll', fileVersion: 1.5.0.2907
-C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000075280000), size: 622592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP100.dll', fileVersion: 10.0.40219.473
-C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000075320000), size: 860160 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCR100.dll', fileVersion: 10.0.40219.473
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\embree.dll:embree.dll (00007FF821F50000), size: 16711680 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\embree.dll', fileVersion: 2.14.0.0
-C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FF8C9B00000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\tbb.dll:tbb.dll (00007FF88EE80000), size: 413696 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\tbb.dll', fileVersion: 2017.0.2016.1004
-C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FF872140000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
-C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FF8C9340000), size: 430080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FF842000000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000019D0E900000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF8C9600000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FF8CA7F0000), size: 495616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF8C8ED0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2715
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF8C6F40000), size: 700416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3447
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF8C7DF0000), size: 9408512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3447
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FF8C7CB0000), size: 1302528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3235
-C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FF8CB9E0000), size: 995328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF8C9DC0000), size: 135168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FF8BE710000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FF8C5050000), size: 1769472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF8C4AF0000), size: 491520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF8CBE90000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF8C2960000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF8C23D0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF8C8A10000), size: 1019904 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.22621.3155
-C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FF88AD10000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FF88ACF0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FF88AC60000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF8BFAE0000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\npmproxy.dll', fileVersion: 10.0.22621.2506
-C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FF8C0440000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FF88AC30000), size: 135168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF8C04A0000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\fwpuclnt.dll', fileVersion: 10.0.22621.3235
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF8C2980000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FF83D600000), size: 1519616 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\NVUnityPlugin.DLL'
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF843700000), size: 540672 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FF8BB1C0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FF8C9AD0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF8C5E60000), size: 2453504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3235
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF8C7090000), size: 1015808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FF8C3F00000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\System32\DriverStore\FileRepository\u0388253.inf_amd64_501ddfbfa1c4852c\B387046\aticfx64.dll:aticfx64.dll (00007FF8C06A0000), size: 1814528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.12044.24003
-C:\WINDOWS\System32\DriverStore\FileRepository\u0388253.inf_amd64_501ddfbfa1c4852c\B387046\atiuxp64.dll:atiuxp64.dll (00007FF8C0620000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.12044.24003
-C:\WINDOWS\System32\DriverStore\FileRepository\u0388253.inf_amd64_501ddfbfa1c4852c\B387046\atidxx64.dll:atidxx64.dll (00007FF8BBFE0000), size: 32673792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.12044.24003
-C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FF8C6B30000), size: 618496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\SYSTEM32\amdihk64.dll:amdihk64.dll (00007FF8C0460000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.0.0.1788
-C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FF8C0250000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF8C9440000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF8B3D60000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3085
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF8B3CE0000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF8AE9C0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3085
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF8AEB50000), size: 1015808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF8AE040000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\MpOav.dll:MpOav.dll (00007FF8ADFB0000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.24030.9
-C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FF8463A0000), size: 507904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.0.0
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\radeonrays.dll:radeonrays.dll (00007FF83DB10000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF820800000), size: 10825728 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF8C78F0000), size: 2306048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\WINDOWS\System32\psapi.dll:psapi.dll (00007FF8CB700000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF8CA0153AC)
-0x00007FF8CA0153AC (KERNELBASE) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74DBBE230)
-0x00007FF74DBBE230 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74DBBECAD)
-0x00007FF74DBBECAD (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E87636F)
-0x00007FF74E87636F (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E875ACD)
-0x00007FF74E875ACD (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74C9E8D26)
-0x00007FF74C9E8D26 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74C9E271A)
-0x00007FF74C9E271A (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74C9EC72E)
-0x00007FF74C9EC72E (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CF0AACD)
-0x00007FF74CF0AACD (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74C2D42F8)
-0x00007FF74C2D42F8 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CBA5B3B)
-0x00007FF74CBA5B3B (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CBD6CEC)
-0x00007FF74CBD6CEC (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CBD2B7D)
-0x00007FF74CBD2B7D (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CBDD835)
-0x00007FF74CBDD835 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74D1A8C8F)
-0x00007FF74D1A8C8F (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74D1A84D6)
-0x00007FF74D1A84D6 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74D18D245)
-0x00007FF74D18D245 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74D18D951)
-0x00007FF74D18D951 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74D18D70C)
-0x00007FF74D18D70C (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74C2CB83B)
-0x00007FF74C2CB83B (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489A67)
-0x00007FF74E489A67 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CE0D7C6)
-0x00007FF74CE0D7C6 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CE107C7)
-0x00007FF74CE107C7 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CE346BA)
-0x00007FF74CE346BA (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489ADB)
-0x00007FF74E489ADB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CB7A6BF)
-0x00007FF74CB7A6BF (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CC76961)
-0x00007FF74CC76961 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489ADB)
-0x00007FF74E489ADB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CA1A7A3)
-0x00007FF74CA1A7A3 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CA2BE6F)
-0x00007FF74CA2BE6F (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489ADB)
-0x00007FF74E489ADB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CA1D44D)
-0x00007FF74CA1D44D (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CED3AD5)
-0x00007FF74CED3AD5 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489ADB)
-0x00007FF74E489ADB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CED1BEB)
-0x00007FF74CED1BEB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CED3B01)
-0x00007FF74CED3B01 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489ADB)
-0x00007FF74E489ADB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CA1A7A3)
-0x00007FF74CA1A7A3 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CA2BE6F)
-0x00007FF74CA2BE6F (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489ADB)
-0x00007FF74E489ADB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74DFAE77E)
-0x00007FF74DFAE77E (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E489ADB)
-0x00007FF74E489ADB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CA12745)
-0x00007FF74CA12745 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74CA2BE4A)
-0x00007FF74CA2BE4A (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E48AF35)
-0x00007FF74E48AF35 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E4895C8)
-0x00007FF74E4895C8 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E4D3A15)
-0x00007FF74E4D3A15 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E4D29FC)
-0x00007FF74E4D29FC (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E4F7858)
-0x00007FF74E4F7858 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E55F312)
-0x00007FF74E55F312 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E59B5D2)
-0x00007FF74E59B5D2 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E58757E)
-0x00007FF74E58757E (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E5891E4)
-0x00007FF74E5891E4 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E59997C)
-0x00007FF74E59997C (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E56DB9F)
-0x00007FF74E56DB9F (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E538757)
-0x00007FF74E538757 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E5387DB)
-0x00007FF74E5387DB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74DD37DA3)
-0x00007FF74DD37DA3 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74E1C2BA5)
-0x00007FF74E1C2BA5 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF74F5A870E)
-0x00007FF74F5A870E (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF8CB89257D)
-0x00007FF8CB89257D (KERNEL32) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Érvénytelen cím hozzáférésére tett kísérlet.' (Address: 00007FF8CCBCAA48)
-0x00007FF8CCBCAA48 (ntdll) (function-name not available)
-
-========== END OF STACKTRACE ===========
-
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/szojk/AppData/Local/Temp/Unity/Editor/Crashes
